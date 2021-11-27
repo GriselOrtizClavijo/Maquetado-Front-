@@ -46,13 +46,13 @@ font-size: 25px;
 position: relative
 }
 
-li:hover {
+.menu li:hover {
 color: rgb(206, 206, 206);
 text-decoration: underline;
 cursor:pointer;
 }
 
-.button {
+button {
 width: 300px;
 height: 90px;
 background-color: #F3603B;
@@ -64,7 +64,7 @@ text-align: center;
 position: relative;
 }
 
-span .button a:hover {
+button:hover {
 color: rgb(255, 255, 255);
 text-decoration: underline;
 cursor:pointer;
@@ -195,6 +195,7 @@ font-size: 40px;
 margin-top: 0px;
 bottom: 80px;
 z-index: 10;
+text-align: center;
 }
 
 .comentarios p {
@@ -212,3 +213,131 @@ z-index: 20;
 position: relative;
 bottom: 50px;
 }
+
+.botonmedio{
+display: flex;
+justify-content: center;
+width: 100%;
+padding-bottom: 100px;
+}
+
+
+/*clases de la seccion cuatro*/
+
+.section4 {
+width: 100%;
+height: 400px;
+display:flex;
+justify-content: space-around;
+position: relative;
+background-color: #F3613C; 
+}
+
+.simple {
+width: 50%;
+justify-content: flex-end;
+align-content: center;
+padding-left: 15%;
+}
+
+.botonfinal {
+width: 50%;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+display: flex;
+}
+
+.botonfinal button {
+background-color: rgb(255, 255, 255);
+color: #F3613C;
+}
+
+.section4 h2 {
+font-size: 90px;
+color: rgb(255, 255, 255);
+line-height: 98px;
+font-weight: bold;
+}
+
+/*clases del footer*/
+
+footer {
+width: 100%;
+height: 400px;
+display:flex;
+justify-content: space-around;
+position: relative;
+background-color: #7a7a7a; 
+}
+
+footer .logo {
+height: 60px ;
+}
+
+.icons {
+width: 30%;
+display: flex;
+position: relative;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+.menufooter {
+width: 30%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav1 {
+width: 15%;
+list-style-type: none;
+position: relative;
+font-size: 30px;
+line-height: 38px;
+color: white;
+}
+
+.nav2 {
+width: 15%;
+list-style-type: none;
+position: relative;
+font-size: 30px;
+line-height: 38px;
+color: white;
+text-align: left
+}
+
+.formulario {
+width: 40%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content:flex-end;
+position: relative;
+}
+
+.form1 {
+width: 500px;
+height: 100px;
+border-radius: 20px 20px 20px 20px;
+align-self: center;
+position: relative;
+}
+
+.buttonform {
+width: 100px;
+height: 50px;
+border-radius:  20px 20px 20px;
+align-self: center;
+background-color: #F3603B;
+}
+
+footer p {
+width: 20%;
+font-size: 30px;
+position: relative;
+}
+
