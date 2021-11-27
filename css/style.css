@@ -2,6 +2,7 @@
 box-sizing: border-box;
 font-family: 'Be Vietnam Pro', sans-serif;
 font-family: 'Roboto', sans-serif;
+margin-left: 70px;
 }
 
 /*clases para fondo*/
@@ -21,6 +22,7 @@ display: flex;
 justify-content:space-around;
 margin-top: 80px;
 position: relative;
+box-sizing: border-box;
 }
 
 .logo {
@@ -81,6 +83,7 @@ margin: 0px;
 main {
 width: 100%;
 display: flexbox;
+box-sizing: border-box;
 }
 
 /*clases para section uno*/
@@ -91,6 +94,7 @@ display:flex;
 justify-content: space-around;
 position: relative;
 margin-left: 100px;
+box-sizing: border-box;
 }
 
 .bringe {
@@ -138,6 +142,7 @@ justify-content: space-around;
 position: relative;
 margin-left: 100px;
 margin-top: 100px;
+box-sizing: border-box;
 } 
 .different {
 margin-top: 50px;
@@ -176,7 +181,8 @@ padding-bottom: 120px;
 width: 100%;
 display:flex;
 justify-content: space-around;
-position: relative;      
+position: relative;     
+box-sizing: border-box; 
 }
 
 .comentarios {
@@ -231,6 +237,7 @@ display:flex;
 justify-content: space-around;
 position: relative;
 background-color: #F3613C; 
+box-sizing: border-box;
 }
 
 .simple {
@@ -269,6 +276,7 @@ display:flex;
 justify-content: space-around;
 position: relative;
 background-color: #7a7a7a; 
+box-sizing: border-box;
 }
 
 footer .logo {
@@ -314,7 +322,6 @@ text-align: left
 width: 40%;
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-content:flex-end;
 position: relative;
 }
@@ -335,9 +342,9 @@ align-self: center;
 background-color: #F3603B;
 }
 
-footer p {
+.copy {
 width: 20%;
 font-size: 30px;
-position: relative;
+color: rgb(255, 255, 255);
 }
 
