@@ -1,406 +1,34 @@
 * {
-box-sizing:border-box;
-font-family: 'Be Vietnam Pro', sans-serif;
-font-family: 'Roboto', sans-serif;
-}
-
-body{
-width: 100%;
-background-image: url(/imagenes/bg-tablet-pattern.svg);
-background-repeat: no-repeat;
-background-position-x: right;
-} 
-
-
-/*Clases para el header*/
-
-header {
-width: 100%;
-height: 200px;
-display: flex;
-justify-content:space-around;
-margin-top: 80px;
-position: relative;
-}
-
-.logo {
-width: 300px;
-height: 90px;
-padding-top: 10px;
-}
-
-.menu {
-display: flex;
-padding-top: 10px;
-position: relative;
-}
-
-ul.menu li{
-display:inline-block;
-margin: 10px;
-list-style-type: none;
-font-size: 25px;
-position: relative
-}
-
-.menu li:hover {
-color: rgb(206, 206, 206);
-text-decoration: underline;
-cursor:pointer;
-}
-
-button {
-width: 300px;
-height: 90px;
-background-color: #F3603B;
-border-radius: 50px;
-font-size: 30px;
-color: rgb(255, 255, 255);
-padding: 20px 50px 20px 50px;
-text-align: center;
-position: relative;
-}
-    
-button:hover {
-color: rgb(255, 255, 255);
-text-decoration: underline;
-cursor:pointer;
-}
-
-header span button {
-margin-top: 0px;
-}
-
-.bars {
-display: none;
-font-size: 60px;
-color:rgb(35, 44, 81);
-}
-
-main {
-width: 100%;
-}
-    
-/*clases para section uno*/
-    
-.section1 {
-width: 100%;
-display:flex;
-justify-content: space-around;
-position: relative;
-}
-
-.bringe {
-width: 700px;
-height: 500px;
-flex-direction: column;
-z-index: 20;
-top: 30px;
-}
-
-h1 {
-font-size: 90px;
-font-weight: 900;
-color: rgb(35, 44, 81);
-line-height: 100px;
-}
-
-.bringe,p,h3 {
-font-size: 30px;
-line-height: 50px;
-color: rgb(146, 145, 145);
-padding-right: 20px;
-font-weight: normal;
-}
-
-.section1 .bringe,button {
-margin-top: 60px;
-}
-
-.ilustracion {
-width: 900px;
-height: 900px;
-position: relative;
-bottom: 30px;
-justify-self: self-end;
-z-index: -10;
-}
-
-/*Clases de la seccion dos*/
-
-.section2 {
-width: 100%;
-display:flex;
-justify-content: space-around;
-position: relative;
-text-align: justify;
-background-image: url(/imagenes/bg-tablet-pattern.svg);
-background-repeat: no-repeat;
-background-position-x:left; 
-background-position-y: bottom; 
-} 
-.different {
-margin-top: 50px;
-width: 40%;
-padding: 180px;
-}
-    
-.lista {
-width: 50%;
-padding: 180px;
-}
-    
-.section2,div,h2 {
-font-size: 55px;
-color: rgb(35, 44, 81);
-line-height: 60px;
-font-weight: 900;
-}
-
-.section2,article,ol,h4 {        
-font-size: 30px;
-color: rgb(35, 44, 81);
-line-height: 50px;
-font-weight: 900;
-}
-        
-.section2,article,ol,p {
-font-size: 30px;
-line-height: 55px;
-font-weight: normal;
-padding-left: 0px;
-}
-
-/*titulo tres*/
-
-.titulo3 {
-text-align: center;
-padding-bottom: 120px;
-}
-
-/*Clases de la seccion 3*/
-
-.section3 {
-width: 100%;
-display:flex;
-justify-content: space-around;
-position: relative;
-
-
-}
-    
-.comentarios {
-width: 800px;
-height: 500px;
-background-color: #f7eaea84;
-justify-content: center;
-flex-direction: column;
-text-align: center;
-align-content: center;
-}
-
-.comentarios,h5 {
-position: relative;
-font-size: 40px;
-margin-top: 20px;
-bottom: 40px;
-z-index: 10;
-text-align: center;
-}
-
-.comentarios p {
-position: absolute;
-top: 250px;
-z-index: 30;
-text-align: center;
-}
-
-.avatar {
-width: 180px;
-height: 180px;
-justify-self: center;
-z-index: 20;
-position: relative;
-bottom: 50px;
-}
-
-.botonmedio{
-display: flex;
-justify-content: center;
-width: 100%;
-padding-bottom: 100px;
-}
-
-/*clases de la seccion cuatro*/
-
-.section4 {
-width: 100%;
-height: 400px;
-display:flex;
-justify-content: space-around;
-position: relative;
-background-color: #F3613C; 
-}
-    
-.simple {
-width: 40%;
-justify-content: flex-end;
-align-content: center;
-padding-left: 15%;
-background-image: url(/imagenes/bg-tablet-pattern.svg);
-background-repeat: no-repeat;
-background-position-x:center; 
-background-position-y: bottom; 
-}
-    
-.botonfinal {
-width: 50%;
-justify-content:center;
-display: flex;
-align-items: center;
-position:relative;
-bottom: 50px;
-}
-    
-.botonfinal button {
-background-color: rgb(255, 255, 255);
-color: #F3613C;
-}
-    
-.section4 h2 {
-font-size: 50px;
-color: rgb(255, 255, 255);
-line-height: 70px;
-font-weight: bold;
-padding-top: 70px;
-}
-
-/*clases del footer*/
-
-footer {
-width: 100%;
-height: 400px;
-display:flex;
-justify-content: space-between;
-position: relative;
-background-color: #000000; 
-}
-    
-footer .logo {
-height: 60px;
-justify-self: center;
-margin-left: 60px;
-}
-    
-.icons {
-width: 20%;
-display: flex;
-position: relative;
-flex-wrap: wrap;
-justify-content: center;
-flex-direction: column;
-margin-left: 50px;
-}
-
-.redes {
-color:white;
-font-size: 40px;
-padding: 90px;
-position: relative;
-top: 90px;
-justify-self: center;
-}
-
-.redes:hover {
-color:#F3613C;
-cursor:pointer;
-}
-
-.menufooter {
-width: 30%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-left: 0px;
-}
-    
-.nav1 {
-list-style-type: none;
-position: relative;
-font-size: 30px;
-line-height: 70px;
-color: white;
-text-align: left;
-}
-    
-.nav2 {
-list-style-type: none;
-position: relative;
-font-size: 30px;
-line-height: 70px;
-color: white;
-text-align: left;
-}
-
-.formulario {
-width: 40%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-items: center;
-justify-content: space-around;
-position: relative;
-}
-    
-.form1 {
-width: 400px;
-height: 70px;
-text-align:center;
-font-size: 25px;
-border-radius: 30px 30px 30px 30px;
-align-self: center;
-position: relative;
-top: 0px;
-margin-bottom: 150px;
-}
-    
-.buttonform {
-width: 90px;
-height: 70px;
-border-radius:  30px 30px 30px 30px;
-background-color: #F3603B;
-font-size: 30px;
-position: relative;
-align-self: center;
-top:0px;
-margin-bottom: 70px;
-}
-
-.buttonform:hover {
-color:rgb(255, 255, 255);
-cursor:pointer;
-}
-    
-.copy {
-position: absolute;
-justify-self: flex-end;
-align-self: flex-end;
-color: rgb(255, 255, 255);
-}
-
-/*Aquí empizan las medias queries*/
-
-@media screen and (min-width:250px) and (max-width:400px) {
+    box-sizing:border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
     
     body{
     width: 100%;
-    background-image: url(/imagenes/bg-simplify-section-mobile.svg);
-    }  
-
+    background-image: url(/imagenes/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: 130%;
+    background-position-y: -15%;
+    } 
+    
+    
     /*Clases para el header*/
-
+    
     header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content:space-around;
     margin-top: 80px;
+    position: relative;
+    }
+    
+    .logo {
+    width: 300px;
+    height: 90px;
+    padding-top: 10px;
     }
     
     .menu {
@@ -410,27 +38,710 @@ color: rgb(255, 255, 255);
     }
     
     ul.menu li{
-    display: none;
+    display:inline-block;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 25px;
+    position: relative
     }
     
     .menu li:hover {
-    display: none;
+    color: rgb(206, 206, 206);
+    text-decoration: underline;
+    cursor:pointer;
     }
-
+    
+    
+    
+    button {
+    width: 300px;
+    height: 90px;
+    background-color: #F3603B;
+    border-radius: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    position: relative;
+    }
+        
+    button:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor:pointer;
+    }
     
     header span button {
-    display: none;
+    margin-top: 0px;
     }
     
     .bars {
+    display: none;
     font-size: 60px;
     color:rgb(35, 44, 81);
-    display: block;
     }
     
-    header span img {
-    position: fixed;
-    margin: 0px;
-    right: 100%;
+    main {
+    width: 100%;
+    background-image: url(/imagenes/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: -110%;
+    background-position-y: 70%;
     }
-}
+        
+    /*clases para section uno*/
+        
+    .section1 {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    }
+    
+    .bringe {
+    width: 700px;
+    height: 500px;
+    flex-direction: column;
+    z-index: 20;
+    top: 30px;
+    }
+    
+    h1 {
+    font-size: 90px;
+    font-weight: 900;
+    color: rgb(35, 44, 81);
+    line-height: 100px;
+    }
+    
+    .bringe,p,h3 {
+    font-size: 30px;
+    line-height: 50px;
+    color: rgb(146, 145, 145);
+    padding-right: 20px;
+    font-weight: normal;
+    }
+    
+    .section1 .bringe,button {
+    margin-top: 60px;
+    }
+    
+    .ilustracion {
+    width: 900px;
+    height: 900px;
+    position: relative;
+    bottom: 30px;
+    justify-self: self-end;
+    z-index: -10;
+    }
+    
+    /*Clases de la seccion dos*/
+    
+    .section2 {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: justify;
+    } 
+    .different {
+    margin-top: 50px;
+    width: 40%;
+    padding: 180px;
+    }
+        
+    .lista {
+    width: 50%;
+    padding: 180px;
+    }
+    
+    
+    .section2,div,h2 {
+    font-size: 55px;
+    color: rgb(35, 44, 81);
+    line-height: 60px;
+    font-weight: 900;
+    }
+    
+    .section2,article,ol,h4 {       
+    font-size: 30px;
+    color: rgb(35, 44, 81);
+    line-height: 50px;
+    font-weight: 900;
+    list-style-type: none;
+    }
+            
+    .section2,article,ol,p {
+    font-size: 30px;
+    line-height: 55px;
+    font-weight: normal;
+    padding-left: 0px;
+    }
+    
+    /*titulo tres*/
+    
+    .titulo3 {
+    text-align: center;
+    padding-bottom: 120px;
+    }
+    
+    /*Clases de la seccion 3*/
+    
+    .section3 {
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    
+    
+    }
+        
+    .comentarios {
+    width: 700px;
+    height: 500px;
+    background-color: #f7eaea84;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    }
+    
+    .comentarios,h5 {
+    position: relative;
+    font-size: 40px;
+    margin-top: 20px;
+    bottom: 40px;
+    z-index: 10;
+    text-align: center;
+    }
+    
+    .comentarios p {
+    position: absolute;
+    top: 250px;
+    z-index: 30;
+    text-align: center;
+    }
+    
+    .avatar {
+    width: 180px;
+    height: 180px;
+    justify-self: center;
+    z-index: 20;
+    position: relative;
+    bottom: 50px;
+    }
+    
+    .menuscroll{
+    display: none;
+    }
+    .botonmedio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 100px;
+    }
+    
+    /*clases de la seccion cuatro*/
+    
+    .section4 {
+    width: 100%;
+    height: 400px;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    background-color: #F3613C;
+    background-image:none;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 15%; 
+    background-position-y: 0%;
+    }
+    
+    .section4::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.1;
+        background-image: url(/imagenes/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-position-x: 15%; 
+        background-position-y: 0%;
+        background-size: 50%;
+    }
+        
+    .simple {
+    width: 40%;
+    justify-content: flex-end;
+    align-content: center;
+    padding-left: 15%;
+    
+    }
+        
+    .botonfinal {
+    width: 50%;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    position:relative;
+    bottom: 50px;
+    }
+        
+    .botonfinal button {
+    background-color: rgb(255, 255, 255);
+    color: #F3613C;
+    }
+        
+    .section4 h2 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    line-height: 70px;
+    font-weight: bold;
+    padding-top: 70px;
+    }
+    
+    /*clases del footer*/
+    
+    footer {
+    width: 100%;
+    height: 400px;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #000000; 
+    }
+        
+    footer .logo {
+    height: 60px;
+    justify-self: center;
+    margin-left: 60px;
+    }
+        
+    .icons {
+    width: 20%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+    }
+    
+    .redes {
+    color:white;
+    font-size: 40px;
+    padding: 90px;
+    position: relative;
+    top: 90px;
+    justify-self: center;
+    }
+    
+    .redes:hover {
+    color:#F3613C;
+    cursor:pointer;
+    }
+    
+    .menufooter {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    }
+        
+    .nav1 {
+    list-style-type: none;
+    position: relative;
+    font-size: 30px;
+    line-height: 70px;
+    color: white;
+    text-align: left;
+    }
+        
+    .nav2 {
+    list-style-type: none;
+    position: relative;
+    font-size: 30px;
+    line-height: 70px;
+    color: white;
+    text-align: left;
+    }
+    
+    .formulario {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    position: relative;
+    }
+        
+    .form1 {
+    width: 400px;
+    height: 70px;
+    text-align:center;
+    font-size: 25px;
+    border-radius: 30px 30px 30px 30px;
+    align-self: center;
+    position: relative;
+    top: 0px;
+    margin-bottom: 150px;
+    }
+        
+    .buttonform {
+    width: 90px;
+    height: 70px;
+    border-radius:  30px 30px 30px 30px;
+    background-color: #F3603B;
+    font-size: 30px;
+    position: relative;
+    align-self: center;
+    top:0px;
+    margin-bottom: 70px;
+    }
+    
+    .buttonform:hover {
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    }
+        
+    .copy {
+    position: absolute;
+    justify-self: flex-end;
+    align-self: flex-end;
+    color: rgb(255, 255, 255);
+    }
+    
+    /*Aquí empizan las medias queries*/
+    
+    @media screen and (min-width:300px) and (max-width:480px) {
+        
+        body{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position-x: 20px;
+        background-position-y: -150px;
+        padding: 0px 20px 0px 10px;
+        margin: 0px;
+        }  
+    
+        button {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        padding: 5px 10px 5px 10px;
+        }
+    
+        main {
+        background-image: url(/imagenes/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position-x: 250px;
+        background-position-y: 400px;
+        }
+    
+        /*Clases para el header*/
+    
+        header {
+        margin: 0px;
+        height: 60px;
+        align-content: center;
+        justify-content:space-between;
+        }
+        
+        .logo {
+        margin-top: 30px;
+        width: 150px;
+        height: 35px;
+        position: relative;
+        margin-left: 20px;
+        }
+    
+        .menu {
+        display: none;
+        }
+        
+        header button {
+        display: none;
+        }
+    
+        .bars {
+        font-size: 40px;
+        color:rgb(35, 44, 81);
+        z-index: 10;
+        display: flex;
+        margin-right: 30px;
+        align-self: flex-end;
+        }
+        
+        /*clases seccion uno*/
+    
+        .section1 {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-around;
+        align-content: center;
+        }
+    
+        .ilustracion {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        justify-self: center;
+        top: 30px;
+        z-index: 0;
+        }
+        
+        .bringe {
+        width: 100%;
+        height: 500px;
+        top: 350px;
+        z-index: 0;
+        position: relative;
+        padding-right: 0px;
+        text-align: center;
+        }
+                
+        h1 {
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        padding-bottom: 0px;
+        }
+            
+        .bringe,p,h3 {
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 0px;
+        font-weight: normal;
+        padding-right: 0px;
+        }
+            
+        .section1 .bringe,button {
+        margin-top: 20px;
+        }
+            
+    /*Clases de la seccion dos*/
+    
+        .section2 {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+        text-align: justify;
+        text-align: center;
+        } 
+        .different {
+        margin-top: 50px;
+        width: 100%;
+        padding: 180px 0px 0px 0px ;
+        }
+            
+        .section2,div,h2 {
+        font-size: 30px;
+        line-height: 40px;
+        }
+        
+        .lista {
+        width: 100%;
+        padding:10px;
+        text-align: left;
+        }
+    
+        .section2 article ol h4 { 
+        text-align: center;
+        font-size: 20px;
+        line-height: 30px;
+        background-color: #fdc5b7;
+        }
+                
+        .section2,article,ol,p {
+        font-size: 18px;
+        line-height: 25px;
+        padding-left: 0px;
+        }
+        
+        /*Clases de la seccion 3*/
+    
+        .section3{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        }
+        
+    
+        .comentarios {
+        width: 100%;
+        height: 250px;
+        margin-top: 20px;
+        }
+        
+        .comentarios,h5 {
+        position: relative;
+        font-size: 20px;
+        margin-top: 0px;
+        bottom: 40px;
+        }
+        
+        .comentarios p {
+        position: absolute;
+        top: 100px;
+        
+        }
+        
+        .avatar{
+        width: 100px;
+        height: 100px;
+        bottom: 50px;
+        }
+        
+        .cambio {
+        display: none;
+        }
+    
+        .menuscroll  {
+        display: flex;
+        justify-content: center;
+        color: #F3603B;
+        }
+    
+        .botonmedio{
+        top: 200px;
+        }
+    
+    /*clases de la seccion cuatro*/
+    
+        .section4 {
+        flex-direction: column;
+        background-image: none;
+        }
+    
+        .section4::before {
+        background-position-x: -400px; 
+        background-position-y: 60px;
+        background-size: 500px;
+        }
+            
+        .simple {
+        width: 100%;
+        justify-content:center;
+        align-content: center;
+        padding-left: 0%;
+        background-image:none;
+    ;   text-align: center;
+        }
+            
+        .botonfinal {
+        width: 100%;
+        justify-content:center;
+        display: flex;
+        align-items: center;
+        position:relative;
+        bottom: 50px;
+        }
+            
+        .section4 h2 {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        line-height: 50px;
+        padding: 0px 15px 0px 15px;
+        }
+    
+    /*clases del footer*/
+    
+        footer {
+        height: 500px;
+        align-content: center;
+        justify-items: center;
+        flex-direction: column;
+        }  
+        .icons {
+        order:3;
+        flex-direction: column-reverse;
+        width: 100%;
+        display: flex;
+        position: absolute;
+        align-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 250px;
+        }
+    
+        footer .logo {
+        width: 150px;
+        height: 35px;
+        margin-left: 0px;
+        }
+            
+        .redes {
+        font-size: 35px;
+        padding: 0px;
+        position: relative;
+        top: 0px;
+        padding-top: 30px;
+        }
+            
+        .menufooter {
+        order: 2;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        margin-bottom: 280px;
+        }
+                
+        .nav1 {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0px;
+        }
+                
+        .nav2 {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0px;
+        }
+            
+        .formulario {
+        order: 1;
+        width: 100%;
+        align-content: space-between;
+        z-index: 1;
+        position: relative;
+        
+        }
+                
+        .form1 {
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 20px 20px 20px 20px;
+        top: 30px;
+        margin-bottom: 0px;
+        }
+                
+        .buttonform {
+        width: 90px;
+        height: 40px;
+        border-radius:  20px 20px 20px 20px;
+        background-color: #F3603B;
+        font-size: 20px;
+        color:rgb(255, 255, 255);
+        top: 30px;
+        }
+                
+        .copy {
+        padding-top: 800px;
+        align-self: center;
+        }
+    }
