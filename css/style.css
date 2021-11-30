@@ -6,132 +6,132 @@
     
     body{
     width: 100%;
+    padding: 0px 30px 0px 50px;
+    margin: 0px;
     background-image: url(/imagenes/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: 130%;
-    background-position-y: -15%;
+    background-size: 70%;
+    background-position-x: 180%;
+    background-position-y: -4%;
     } 
-    
     
     /*Clases para el header*/
     
-    header {
+header {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content:space-between;
+    margin-top: 40px;
+    position: relative;
     width: 100%;
-    height: 200px;
+    }
+    
+.logo {
+    height: 30px;
+    margin-top: 0px;   
+    margin-left: 20px;
+    position: relative;
+    width: 150px;
+    }
+    
+.menu {
     display: flex;
-    justify-content:space-around;
-    margin-top: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
     position: relative;
     }
     
-    .logo {
-    width: 300px;
-    height: 90px;
-    padding-top: 10px;
-    }
-    
-    .menu {
-    display: flex;
-    padding-top: 10px;
-    position: relative;
-    }
-    
-    ul.menu li{
+ul.menu li{
     display:inline-block;
-    margin: 10px;
-    list-style-type: none;
     font-size: 25px;
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
     position: relative
     }
     
-    .menu li:hover {
+.menu li:hover {
     color: rgb(206, 206, 206);
-    text-decoration: underline;
     cursor:pointer;
+    text-decoration: underline;
     }
     
-    
-    
-    button {
-    width: 300px;
-    height: 90px;
+button {
     background-color: #F3603B;
+    border: #000000;
     border-radius: 50px;
-    font-size: 30px;
     color: rgb(255, 255, 255);
-    padding: 20px 50px 20px 50px;
-    text-align: center;
+    font-size: 15px;
+    height: 50px;
+    padding: 20px 50px 40px 50px;
     position: relative;
+    text-align: center;
+    width: 180px;
     }
         
-    button:hover {
+button:hover {
     color: rgb(255, 255, 255);
-    text-decoration: underline;
     cursor:pointer;
+    text-decoration: underline;   
     }
     
-    header span button {
+header span button {
     margin-top: 0px;
     }
     
-    .bars {
+.bars {
     display: none;
-    font-size: 60px;
-    color:rgb(35, 44, 81);
     }
     
-    main {
-    width: 100%;
+main {
     background-image: url(/imagenes/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-size: 60%;
     background-position-x: -110%;
     background-position-y: 70%;
+    background-size: 60%;
+    width: 100%;
     }
         
     /*clases para section uno*/
         
-    .section1 {
-    width: 100%;
+.section1 {
     display:flex;
     justify-content: space-around;
     position: relative;
+    width: 100%;
     }
     
-    .bringe {
-    width: 700px;
-    height: 500px;
+.bringe { 
     flex-direction: column;
-    z-index: 20;
+    height: 500px;
     top: 30px;
+    width: 700px;
+    z-index: 20;
     }
     
-    h1 {
-    font-size: 90px;
-    font-weight: 900;
+h1 {
     color: rgb(35, 44, 81);
-    line-height: 100px;
+    font-size: 60px;
+    font-weight: 900;   
+    line-height: 70px;
     }
     
-    .bringe,p,h3 {
-    font-size: 30px;
-    line-height: 50px;
+.bringe,p,h3 {
     color: rgb(146, 145, 145);
-    padding-right: 20px;
+    font-size: 20px;
     font-weight: normal;
+    line-height: 35px;
     }
     
-    .section1 .bringe,button {
+.section1 .bringe,button {
     margin-top: 60px;
     }
     
-    .ilustracion {
-    width: 900px;
-    height: 900px;
+.ilustracion {
+    height: 600px;
+    margin-top: 50px;
     position: relative;
-    bottom: 30px;
-    justify-self: self-end;
+    width: 600px;
     z-index: -10;
     }
     
@@ -427,7 +427,7 @@
         background-size: 500px;
         background-position-x: 20px;
         background-position-y: -150px;
-        padding: 0px 20px 0px 10px;
+        padding: 0px 0px 0px 0px;
         margin: 0px;
         }  
     
@@ -452,13 +452,13 @@
         margin: 0px;
         height: 60px;
         align-content: center;
-        justify-content:space-between;
+        justify-content:space-around;
         }
         
         .logo {
         margin-top: 30px;
-        width: 150px;
-        height: 35px;
+        width: 130px;
+        height: 20px;
         position: relative;
         margin-left: 20px;
         }
@@ -472,7 +472,7 @@
         }
     
         .bars {
-        font-size: 40px;
+        font-size: 30px;
         color:rgb(35, 44, 81);
         z-index: 10;
         display: flex;
@@ -490,12 +490,13 @@
         align-content: center;
         }
     
-        .ilustracion {
-        width: 350px;
+    .ilustracion {       
+        align-self: center;
         height: 350px;
+        padding: 0px 0px 30px 40px;
         position: absolute;
-        justify-self: center;
-        top: 30px;
+        top: 10px;
+        width: 380px;
         z-index: 0;
         }
         
@@ -505,8 +506,9 @@
         top: 350px;
         z-index: 0;
         position: relative;
-        padding-right: 0px;
+        padding: 0px;
         text-align: center;
+        margin-top: 10px;
         }
                 
         h1 {
@@ -517,11 +519,10 @@
         }
             
         .bringe,p,h3 {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 25px;
-        padding-top: 0px;
+        padding: 0px 30px 0px 30px;
         font-weight: normal;
-        padding-right: 0px;
         }
             
         .section1 .bringe,button {
@@ -547,7 +548,7 @@
         font-size: 30px;
         line-height: 40px;
         }
-        
+
         .lista {
         width: 100%;
         padding:10px;
@@ -560,11 +561,11 @@
         line-height: 30px;
         background-color: #fdc5b7;
         }
-                
+         
         .section2,article,ol,p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 25px;
-        padding-left: 0px;
+        text-align: center;
         }
         
         /*Clases de la seccion 3*/
