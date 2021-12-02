@@ -1,7 +1,8 @@
 * {
     box-sizing:border-box;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
+    padding: 0px;
+    margin: 0px;
     }
     
     body{
@@ -30,7 +31,7 @@ header {
     
 .logo {
     height: 25px;
-    margin-top: 0px;   
+    margin-top: 30px;   
     margin-left: 10px;
     position: relative;
     width: 150px;
@@ -40,12 +41,14 @@ header {
     display: flex;
     margin-top: 0px;
     padding-top: 0px;
+    align-items: center;
     position: relative;
     }
     
 ul.menu li{
     display:inline-block;
     font-size: 12px;
+    font-weight: normal;
     list-style-type: none;
     margin: 0px 0px 0px 0px;
     position: relative
@@ -88,7 +91,7 @@ header span button {
 main {
     background-image: url(/imagenes/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
-    background-position-x: -80%;
+    background-position-x: -50%;
     background-position-y: 65%;
     background-size: 60%;
     width: 100%;
@@ -101,36 +104,37 @@ main {
     justify-content: space-around;
     position: relative;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 60px;
     padding-right: 30px
     }
     
 .bringe { 
     flex-direction: column;
     height: 500px;
-    padding-right: 30px;
-    top: 30px;
+    padding-right: 80px;
     width: 700px;
     z-index: 20;
     }
     
 h1 {
     color: rgb(35, 44, 81);
-    font-size: 60px;
-    font-weight: 900;   
-    line-height: 70px;
+    font-size: 50px;
+    font-weight: 600;   
+    line-height: 55px;
+    margin-top: 50px;
     }
     
 .bringe,p,h3 {
     color: rgb(146, 145, 145);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal;
-    line-height: 40px;
-    padding-right: 100px
+    line-height: 25px;
+    padding-top: 20px;
+    padding-right: 120px
     }
     
 .section1 .bringe,button {
-    margin-top: 30px;
+    margin-top: 20px;
     }
     
 .ilustracion {
@@ -146,16 +150,15 @@ h1 {
 .section2 {    
     display:flex;
     justify-content: space-around;
-    margin-top: 100px;
     position: relative;
     text-align: justify;
     width: 100%;
     } 
 
 .different {
-    margin-top: 0px;
+    margin-top: 50px;
     width: 40%;
-    
+    padding-left: 20px;
     }
         
 .lista { 
@@ -170,13 +173,14 @@ h1 {
     color: rgb(255, 255, 255);
     content:"01";
     display:block;
-    font-size: 18px;
-    font-weight: bold; 
+    font-size: 15px;
+    font-weight: normal; 
     height: 35px;
     padding-top: 5px;
     position: absolute;
-    right: 600px;
+    right: 580px;
     text-align: center;
+    top: 75px;
     width: 60px;
     }
 
@@ -186,28 +190,31 @@ h1 {
     color: rgb(255, 255, 255);
     content:"02";
     display:block;
-    font-size: 18px;
-    font-weight: bold; 
+    font-size: 15px;
+    font-weight: normal; 
     height: 35px;
     padding-top: 5px;
     position: absolute;
-    right: 600px;
+    right: 580px;
     text-align: center;
+    top: 260px;
     width: 60px;
     }
-    .lista .li3::before {
+
+.lista .li3::before {
     background-color: #F3613C;
     border-radius: 20px 20px 20px 20px;
     color: rgb(255, 255, 255);
     content:"03";
     display:block;
-    font-size: 18px;
-    font-weight: bold; 
+    font-size: 15px;
+    font-weight: normal; 
     height: 35px;
     padding-top: 5px;
     position: absolute;
-    right: 600px;
+    right: 580px;
     text-align: center;
+    top: 445px;
     width: 60px;
     }
     
@@ -216,27 +223,32 @@ h1 {
     font-size: 40px;   
     font-weight: 900;
     line-height: 50px;
-    padding-right: 20px;
+    padding-right: 0px;
     }
-.section2 .different p {
-    padding-right: 40px;
-    text-align: left;
+
+.section2,.different p {
     padding-left: 0px;
-}   
+    padding-right: 150px;
+    }
+
 
 .section2,article,ol,li,h4 {       
     color: rgb(35, 44, 81);
-    font-size: 18px; 
+    font-size: 16px; 
     font-weight: 900;
     list-style-type: none;
-    padding-left: 40px;
+    padding-left: 50px;
+    padding-top: 20px;
     }
  
 .section2,article,ol,p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: normal;
-    line-height: 30px;   
-    padding-left: 40px;
+    line-height: 25px; 
+    margin-right: 0px;  
+    padding-left: 50px;
+    padding-right: 30px;
+
     }
     
     /*titulo tres*/
@@ -266,7 +278,7 @@ h1 {
 .comentarios,h5 {
     bottom: 40px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 20px;
     position: relative;
     text-align: center;
@@ -305,11 +317,6 @@ h1 {
     
 .section4 {
     background-color: #F3613C;
-    background-image:none;
-    background-position-x: 15%; 
-    background-position-y: 0%;
-    background-repeat: no-repeat;
-    background-size: 50%;
     display:flex;
     height: 210px;
     justify-content: space-around;
@@ -349,8 +356,9 @@ h1 {
     align-items: center;
     bottom: 25px;
     display: flex;
+    justify-self: center;
     justify-content:flex-end;
-    padding-right: 60px;
+    padding-right: 100px;
     position:relative;
     width: 50%;
     }
@@ -428,8 +436,9 @@ footer .logo {
 footer .nav1 li {
     color: white;
     font-size: 12px;
+    font-weight: normal;
     list-style-type: none;
-    line-height: 30px;
+    line-height: 15px;
     position: relative;
     text-align: left;
     }
@@ -437,8 +446,9 @@ footer .nav1 li {
 footer .nav2 li {
     color: white;
     font-size: 12px;
+    font-weight: normal;
     list-style-type: none;
-    line-height: 30px;
+    line-height: 15px;
     position: relative;
     text-align: left;
     }
@@ -494,6 +504,7 @@ footer .menufooter li:hover {
     align-self: flex-end;
     color: rgb(255, 255, 255);
     font-size: 13px;
+    padding-right: 100px;
     padding-top: 80px;
     position: absolute;
     }
@@ -576,18 +587,20 @@ footer .menufooter li:hover {
     
     .ilustracion {       
         align-self: center;
-        height: 380px;
-        padding: 0px 0px 30px 0px;
+        height: 350px;
+        padding: 0px 0px 30px 20px;
         position: absolute;
         top: 10px;
-        width: 400px;
+        width: 350px;
         z-index: 0;
         }
         
     .bringe { 
         height: 500px;
         top: 380px;
+        margin-right: 0px;
         padding: 0px;
+        padding-right: 0px;
         position: relative;
         text-align: center;
         width: 100%;
@@ -595,17 +608,17 @@ footer .menufooter li:hover {
         }
                 
     h1 {
-        font-size: 40px;
-        line-height: 48px;
-        padding-bottom: 0px;
+        font-size: 30px;
+        line-height: 38px;
+        padding: 0px 10px 0px 10px;
         text-align: center;
         }
             
     .bringe,p,h3 {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: normal;
-        line-height: 25px;
-        padding: 0px 30px 0px 30px;
+        line-height: 20px;
+        padding: 0px 40px 0px 40px;
         }
             
     .section1 .bringe,button {
@@ -628,71 +641,84 @@ footer .menufooter li:hover {
         margin-top: 30px;        
         padding-top: 180px;
         padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
         text-align: center;
         width: 100%;
         }
             
     .section2,.different,h2 {
-        font-size: 35px;
+        font-size: 20px;
         line-height: 40px;
         padding-left: 30px;
+        padding-right: 30px;
         text-align: center;
         }
 
     .section2 .different p {
-        padding-left: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
         text-align: center;
         }
 
     .lista {
         padding:0px;
         text-align: left;
-        width: 100%;
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 105%;
         }
     
     .lista .li1::before {
-        font-size: 15px;
+        font-size: 10px;
         height: 20px;
         margin-left: 0px;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 0px;
-        right: 330px;
+        right: 285px;
+        top: 430px;
         width: 60px;
         }
         
     .lista .li2::before {
-        font-size: 15px;
+        font-size: 10px;
         height: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
-        right: 330px;
+        right: 285px;
+        top: 560px;
         width: 60px;    
-            }
+        }
+
     .lista .li3::before {
-        font-size: 15px;
+        font-size: 10px;
         height: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
-        right: 330px;
+        right: 285px;
+        top: 690px;
         width: 60px;    
         }
     .section2 article ol h4 { 
         background-color: #fcdfd7d2;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 900;
+        height: 30px;
         line-height: 30px;
+        padding-top: 0px;
         text-align: center;
         padding-left: 0px;
         width:100%
         }
          
     .section2,article,ol,p {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 10px;
+        line-height: 20px;
         text-align: left;
         padding-left: 0px;
         padding-right: 10px;
+        padding-top: 20px;
         }
         
         /*Clases de la seccion 3*/
@@ -702,9 +728,7 @@ footer .menufooter li:hover {
         height: 100%;
         flex-direction: column;
         justify-content: space-between;
-    
         }
-        
     
         .comentarios {
         width: 100%;
@@ -749,6 +773,7 @@ footer .menufooter li:hover {
     
         .section4 {
         flex-direction: column;
+        height: 400px;
         background-image: none;
         }
     
@@ -773,6 +798,7 @@ footer .menufooter li:hover {
         justify-content:center;
         display: flex;
         align-items: center;
+        padding-right: 0px;
         position:relative;
         bottom: 50px;
         }
@@ -780,8 +806,9 @@ footer .menufooter li:hover {
         .section4 h2 {
         font-size: 40px;
         color: rgb(255, 255, 255);
+        align-self: center;
         line-height: 50px;
-        padding: 0px 15px 0px 15px;
+        padding: 30px 35px 0px 35px;
         }
     
     /*clases del footer*/
@@ -792,6 +819,7 @@ footer .menufooter li:hover {
         justify-items: center;
         flex-direction: column;
         }  
+
         .icons {
         order:3;
         flex-direction: column-reverse;
@@ -806,25 +834,30 @@ footer .menufooter li:hover {
     
         footer .logo {
         width: 150px;
-        height: 35px;
+        height: 25px;
         margin-left: 0px;
         }
             
         .redes {
-        font-size: 35px;
+     
         padding: 0px;
         position: relative;
         top: 0px;
         padding-top: 30px;
+        }
+
+        .red {
+        font-size: 30px;
+        margin: 15px;
         }
             
         .menufooter {
         order: 2;
         width: 100%;
         justify-content: space-around;
-        align-items: center;
+        align-items: left;
         margin-left: 0px;
-        margin-bottom: 280px;
+        margin-bottom: 250px;
         }
                 
         .nav1 {
@@ -837,40 +870,48 @@ footer .menufooter li:hover {
         .nav2 {
         font-size: 15px;
         line-height: 25px;
-        text-align: center;
+        text-align: left;
         padding: 0px;
         }
             
         .formulario {
+        align-items: center;
+        justify-items: center;
         order: 1;
-        width: 100%;
-        align-content: space-between;
-        z-index: 1;
+        padding-right: 45px;
         position: relative;
-        
+        width: 100%;
+        z-index: 1;
         }
                 
         .form1 {
-        width: 200px;
-        height: 40px;
-        font-size: 20px;
         border-radius: 20px 20px 20px 20px;
-        top: 30px;
+        font-size: 15px;
+        height: 40px;
         margin-bottom: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        position: relative;
+        top: 30px;
+        width: 250px;
         }
                 
         .buttonform {
-        width: 90px;
+        
         height: 40px;
         border-radius:  20px 20px 20px 20px;
         background-color: #F3603B;
-        font-size: 20px;
+        font-size: 15px;
         color:rgb(255, 255, 255);
+        position: absolute;
         top: 30px;
+        width: 60px;
         }
                 
         .copy {
-        padding-top: 800px;
-        align-self: center;
+        padding-right: 40px;
+        padding-top: 900px;
+        justify-self: center;
+        text-align: center;
         }
     }
